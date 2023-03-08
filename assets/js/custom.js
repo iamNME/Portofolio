@@ -52,13 +52,13 @@ $(document).ready(function () {
     });
 
     /*========== Start Counter To Js Statistics   ==========*/
-    win.on('scroll.statistics', function () {
-        var stat = $('.statistics');
-        if ($(this).scrollTop() >= stat.offset().top - win.height() + 220) {
-            $('.count').countTo();
-            win.off('scroll.statistics');
-        }
-    });
+//     win.on('scroll.statistics', function () {
+//         var stat = $('.statistics');
+//         if ($(this).scrollTop() >= stat.offset().top - win.height() + 220) {
+//             $('.count').countTo();
+//             win.off('scroll.statistics');
+//         }
+//     });
     
     
     /*========== Start Portfolio Trigger Filterizr Js ==========*/
